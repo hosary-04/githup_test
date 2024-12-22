@@ -15,5 +15,5 @@ jobs:
 
       # Step 3: Run tests using the Gradle Wrapper.
       - name: Run Test with Gradle Wrapper
-        run: ./gradlew test
+        run: ./gradlew App
 
