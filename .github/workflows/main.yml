@@ -11,4 +11,4 @@ jobs :
        - name : list files in the repository 
          run : ls ${{github.workspace}}
        - name: check out repo code action 
-         uses: action/checkout@v4
+         uses: actions/checkout@v4
