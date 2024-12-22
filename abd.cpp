@@ -2,7 +2,11 @@
 //
 
 #include <iostream>
-int  sum1(int a, int b, int c);
+
+int  sum2(int a, int b, int c);
+
+
+
 
 
 
@@ -17,7 +21,10 @@ int main()
     std::cout << "wf sale\n";
     std::cout << "by 2 get 3 free\n";
 }
-int sum1(int a.int b,int c)
+
+int sum2(int a.int b,int c)
+
+
 {
 
     return a + b + c;
