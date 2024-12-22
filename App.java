@@ -12,9 +12,9 @@ public class Student {
         if (finalGrade >= 90) {
             return "A";
         } else if (finalGrade >= 80) {
-            return "B";
-        } else if (finalGrade >= 70) {
             return "C";
+        } else if (finalGrade >= 70) {
+            return "B";
         } else if (finalGrade >= 60) {
             return "D";
         } else {
@@ -23,7 +23,7 @@ public class Student {
     }
 public class StudentTest {
 
-    @test
+    @Test
     public void testCalculateGrade() {
         Student student = new Student("Ahmed", 82.0);
         String grade = student.calculateGrade();
