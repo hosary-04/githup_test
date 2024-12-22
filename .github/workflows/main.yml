@@ -1,1 +1,14 @@
-
+name : github actions demo 
+on : push 
+jobs : 
+   Explore-GitHub-Actions:
+      runs-on : ubuntu-latest
+      steps :
+       - name : print the triggering event
+         run : echo "the jop was triggered by ${{ github.event_name}}."
+       - name : print the os 
+         run : echo "this job is runnig on a ${{ runner.os}} server."
+       - name : list files in the repository 
+         run : ls ${{github.workspace}}
+       - name: check out repo code action 
+         uses: action/checkout@v4
